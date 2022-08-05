@@ -200,6 +200,7 @@ func (c *client) loadBOMConfigurationFromFiledata(data []byte) (*BOMConfiguratio
 		bomConfiguration.ProvidersVersionMap["infrastructure-aws"] = getSimpleVersion(bomConfiguration.Components["cluster_api_aws"][0].Version)
 		bomConfiguration.ProvidersVersionMap["infrastructure-vsphere"] = getSimpleVersion(bomConfiguration.Components["cluster_api_vsphere"][0].Version)
 		bomConfiguration.ProvidersVersionMap["infrastructure-azure"] = getSimpleVersion(bomConfiguration.Components["cluster-api-provider-azure"][0].Version)
+		//bomConfiguration.ProvidersVersionMap["infrastructure-byoh"] = getSimpleVersion(bomConfiguration.Components["cluster-api-provider-byoh"][0].Version)
 		bomConfiguration.ProvidersVersionMap["infrastructure-tkg-service-vsphere"] = "v1.0.0"
 	} else { // TKr BOM
 		if errDevRepository == nil && bomConfiguration.ImageConfig.ImageRepository == devRepository {

@@ -5,6 +5,9 @@ providers:
 - name: aws
   url: providers/infrastructure-aws/v1.2.0/infrastructure-components.yaml
   type: InfrastructureProvider
+- name: byoh
+  url: providers/infrastructure-byoh/v0.3.0/infrastructure-components.yaml
+  type: InfrastructureProvider
 - name: vsphere
   url: providers/infrastructure-vsphere/v1.3.1/infrastructure-components.yaml
   type: InfrastructureProvider

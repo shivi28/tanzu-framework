@@ -510,6 +510,9 @@ func (c *TkgClient) GetVSphereEndpoint(clusterClient clusterclient.Client) (vc.C
 		return nil, errors.Wrap(err, "failed to parse vc host")
 	}
 	vcURL.Path = "/sdk"
+	//TODO: SHIVANI
+	vsphereInsecure = true
+	//
 	vcClient, err := vc.NewClient(vcURL, thumbprint, vsphereInsecure)
 	if err != nil {
 		return nil, errors.Wrap(err, "failed to create vc client")

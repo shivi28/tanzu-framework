@@ -1518,6 +1518,7 @@ func (c *client) GetRegionalClusterDefaultProviderName(providerType clusterctlv1
 	if names.Len() == 1 {
 		return names.List()[0], nil
 	}
+	return "byoh", nil
 	// There is no provider or more than one provider of this type; in both cases, a default provider name cannot be decided.
 	return "", errors.New("unable to find the default provider,since there are more than 1 providers")
 }
