@@ -4,14 +4,10 @@
 package main
 
 import (
-	"os"
 	"path/filepath"
-
-	"github.com/aunum/log"
 
 	cliapi "github.com/vmware-tanzu/tanzu-framework/cli/runtime/apis/cli/v1alpha1"
 	"github.com/vmware-tanzu/tanzu-framework/cli/runtime/config"
-	"github.com/vmware-tanzu/tanzu-framework/cli/runtime/plugin"
 	"github.com/vmware-tanzu/tanzu-framework/pkg/v1/buildinfo"
 
 	"github.com/vmware-tanzu/tanzu-framework/tkg/tkgctl"
@@ -30,30 +26,33 @@ var logLevel int32
 var logFile string
 
 func main() {
-	p, err := plugin.NewPlugin(&descriptor)
-	if err != nil {
-		log.Fatal(err)
-	}
+	//p, err := plugin.NewPlugin(&descriptor)
+	//if err != nil {
+	//	log.Fatal(err)
+	//}
+	//
+	//p.Cmd.PersistentFlags().Int32VarP(&logLevel, "verbose", "v", 0, "Number for the log level verbosity(0-9)")
+	//p.Cmd.PersistentFlags().StringVar(&logFile, "log-file", "", "Log file path")
+	//p.Cmd.SilenceUsage = true
+	//p.AddCommands(
+	//	createClusterCmd,
+	//	listClustersCmd,
+	//	deleteClusterCmd,
+	//	upgradeClusterCmd,
+	//	scaleClusterCmd,
+	//	machineHealthCheckCmd,
+	//	credentialsCmd,
+	//	clusterKubeconfigCmd,
+	//	getClustersCmd,
+	//	availableUpgradesCmd,
+	//	clusterNodePoolCmd,
+	//)
 
-	p.Cmd.PersistentFlags().Int32VarP(&logLevel, "verbose", "v", 0, "Number for the log level verbosity(0-9)")
-	p.Cmd.PersistentFlags().StringVar(&logFile, "log-file", "", "Log file path")
-	p.Cmd.SilenceUsage = true
-	p.AddCommands(
-		createClusterCmd,
-		listClustersCmd,
-		deleteClusterCmd,
-		upgradeClusterCmd,
-		scaleClusterCmd,
-		machineHealthCheckCmd,
-		credentialsCmd,
-		clusterKubeconfigCmd,
-		getClustersCmd,
-		availableUpgradesCmd,
-		clusterNodePoolCmd,
-	)
-	if err := p.Execute(); err != nil {
-		os.Exit(1)
-	}
+	create(nil, []string{"cluster-name", "shivani"})
+
+	//if err := p.Execute(); err != nil {
+	//	os.Exit(1)
+	//}
 }
 
 func getConfigDir() (string, error) {

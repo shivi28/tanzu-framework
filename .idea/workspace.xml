@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81868407-e187-430f-bbc8-f584a8df077f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/packages/cluster-api-provider-byoh/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cluster-api-provider-byoh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cluster-api-provider-byoh/bundle/config/overlay/add-proxy-environment-variables.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cluster-api-provider-byoh/bundle/config/upstream/infrastructure-components.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cluster-api-provider-byoh/bundle/config/upstream/metadata.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cluster-api-provider-byoh/bundle/config/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cluster-api-provider-byoh/metadata.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cluster-api-provider-byoh/package.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cluster-api-provider-byoh/test/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cluster-api-provider-byoh/test/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cluster-api-provider-byoh/test/unit/overlay_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cluster-api-provider-byoh/test/unit/unit_suite_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cluster-api-provider-byoh/vendir.lock.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/cluster-api-provider-byoh/vendir.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wc-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cli/plugin/cluster/create.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/cli/plugin/cluster/create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinniped/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/pinniped/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinniped/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/pinniped/go.sum" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file:///usr/local/Cellar/go@1.17/1.17.13/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ck4ci9AvC0xkMR15KhqgyLrZ00" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/sishivani/tanzu-framework/packages/cluster-api-provider-byoh",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "go.sdk",
+    "ts.external.directory.path": "/Applications/GoLand.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/cluster-api-provider-byoh" />
+      <recent name="$PROJECT_DIR$/pkg/v1/providers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build github.com/vmware-tanzu/tanzu-framework/cmd/cli/plugin/cluster">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="tanzu-framework" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/vmware-tanzu/tanzu-framework/cmd/cli/plugin/cluster" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="tanzu-framework" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value="--SUPPRESS_PROVIDERS_UPDATE=1" />
+      <envs>
+        <env name="SUPPRESS_PROVIDERS_UPDATE" value="1" />
+      </envs>
+      <kind value="PACKAGE" />
+      <package value="github.com/vmware-tanzu/tanzu-framework/cmd/cli/plugin/cluster" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cmd/cli/plugin/cluster/create.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/vmware-tanzu/tanzu-framework/cmd/cli/plugin/managementcluster" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="tanzu-framework" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/vmware-tanzu/tanzu-framework/cmd/cli/plugin/managementcluster" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cmd/cli/plugin/managementcluster/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="tanzu-framework" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/vmware-tanzu/tanzu-framework/cmd/cli/plugin/cluster" />
+        <item itemvalue="Go Build.go build github.com/vmware-tanzu/tanzu-framework/cmd/cli/plugin/managementcluster" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/v1/tkg/clusterclient/credentials.go</url>
+          <line>42</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/v1/tkg/client/cluster.go</url>
+          <line>144</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../go/pkg/mod/sigs.k8s.io/cluster-api@v1.1.5/cmd/clusterctl/client/repository/repository_local.go</url>
+          <line>98</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../go/pkg/mod/sigs.k8s.io/cluster-api@v1.1.5/cmd/clusterctl/client/repository/client.go</url>
+          <line>123</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/v1/tkg/tkgconfigupdater/ensure.go</url>
+          <line>262</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/v1/tkg/tkgconfigupdater/ensure.go</url>
+          <line>323</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/v1/tkg/tkgctl/client.go</url>
+          <line>225</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/v1/tkg/tkgconfigupdater/ensure.go</url>
+          <line>363</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../go/pkg/mod/sigs.k8s.io/cluster-api@v1.1.5/cmd/clusterctl/client/config.go</url>
+          <line>338</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../go/pkg/mod/sigs.k8s.io/cluster-api@v1.1.5/cmd/clusterctl/client/repository/template_client.go</url>
+          <line>99</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../go/pkg/mod/sigs.k8s.io/cluster-api@v1.1.5/cmd/clusterctl/client/repository/template.go</url>
+          <line>115</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/v1/tkg/yamlprocessor/ytt.go</url>
+          <line>210</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/cmd/cli/plugin/managementcluster/main.go</url>
+          <line>37</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/cmd/cli/plugin/managementcluster/create.go</url>
+          <line>198</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/v1/tkg/tkgctl/init.go</url>
+          <line>140</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/v1/tkg/client/validate.go</url>
+          <line>456</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/cmd/cli/plugin/managementcluster/get.go</url>
+          <line>106</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/v1/tkg/client/cluster.go</url>
+          <line>77</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/v1/tkg/tkgctl/create_cluster.go</url>
+          <line>172</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/v1/tkg/tkgctl/create_cluster.go</url>
+          <line>131</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/v1/tkg/client/cluster.go</url>
+          <line>126</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/v1/tkg/client/cluster.go</url>
+          <line>594</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/v1/tkg/client/cluster.go</url>
+          <line>174</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/tkg/client/cluster.go</url>
+          <line>175</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/cmd/cli/plugin/cluster/main.go</url>
+          <line>50</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="*(*&quot;string&quot;)(824646047024)" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

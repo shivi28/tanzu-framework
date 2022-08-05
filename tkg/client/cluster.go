@@ -39,6 +39,7 @@ const (
 	// DockerProviderName docker provider name
 	DockerProviderName = "docker"
 
+	BYOHProviderName              = "byoh"
 	defaultPacificProviderVersion = "v1.1.0"
 )
 
@@ -725,6 +726,8 @@ func (c *TkgClient) configureAndValidateProviderConfig(providerName string, opti
 		if err := c.ConfigureAndValidateDockerConfig(options.TKRVersion, options.NodeSizeOptions, skipValidation); err != nil {
 			return NewValidationError(ValidationErrorCode, err.Error())
 		}
+	case BYOHProviderName:
+		return nil
 	}
 	return nil
 }

@@ -5,6 +5,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"reflect"
 	"sort"
 	"time"
@@ -101,6 +102,9 @@ func aliasNormalizeFunc(f *pflag.FlagSet, name string) pflag.NormalizedName {
 }
 
 func create(cmd *cobra.Command, args []string) error {
+	envv := os.Getenv(constants.SuppressProvidersUpdate)
+	fmt.Printf("%+v", envv)
+	cc.clusterConfigFile = "/Users/sishivani/tanzu-framework/wc-config.yaml"
 	server, err := config.GetCurrentServer()
 	if err != nil {
 		// if current server does not exist and user is using generate only
